@@ -1,0 +1,85 @@
+SPIKESORTING WITH KILOSORT
+
+REQUIREMENTS FOR KILOSORT:
+- MATLAB r2023b    (version >= r2016b OK)
+- Visual Studio 2022 Community (for MATLAB version >= r2022b, install this after having Matlab installed)
+- CUDA TOOLKIT 11.8 (it depends on MATLAB version) + look for cuda driver
+     |
+     -> to install CUDA TOOLKIT on Windows 11 go to:
+          https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+        
+
+INSTALLING KILOSORT ON MATLAB
+- In MATLAB choose a compiler: 
+  [>> mex -setup C++ % gives an output like below:
+
+   To choose a different C++ compiler, select one from the following:
+   MinGW64 Compiler (C++)  mex -setup:'C:\Program Files\MATLAB\R2018a\bin\win64\mexopts\mingw64_g++.xml' C++
+   MinGW64 Compiler with Windows 10 SDK or later (C++)  mex -setup:'C:\Program Files\MATLAB\R2018a\bin\win64\mexopts\mingw64_g++_sdk10+.xml' C++
+   Microsoft Visual C++ 2013  mex -setup:'C:\Program Files\MATLAB\R2018a\bin\win64\mexopts\msvcpp2013.xml' C++
+
+   % you want to pick the 2013 edition, so copy and paste the corresponding instruction. For me that's: 
+   >> mex -setup:'C:\Program Files\MATLAB\R2018a\bin\win64\mexopts\msvcpp2013.xml' C++]  
+
+- Compile Kilosort
+  [>> cd C:\my\github\directory\KiloSort\CUDA % your kilosort repository directory
+   >> mexGPUall % should get a bunch of warnings plus "MEX completed successfully", several times. 
+   % at this stage it may tell you that you need a different version of cuda for older matlab installations.]
+
+- You can verify that the code has been installed correctly by running master_eMouse inside the eMouse folder. 
+  There will be Warnings about Wrong Directories if you don't configure master_eMouse prevently.
+  The verification should still run smmoothly until a wrong path is compiled.
+
+- To run kilosort GUI:
+  [>> cd \my\kilosort\directory\
+   >> kilosort]
+
+- To run kilosort from the main_kilosort.m :
+
+  -Make a copy of main_kilosort.m and \configFiles\StandardConfig_MOVEME.m and put them in a different directory.
+   These files will contain your own settings, and you don't want them to be overwritten when you update Kilosort.
+  -Generate a channel map file for your probe using \configFiles\createChannelMap.m as a starting point.
+  -Edit the config file with desired parameters. You should at least set the file paths ops.fbinary, ops.root and ops.fproc 
+   (this file will not exist yet - kilosort will create it), the sampling frequency ops.fs, the number of channels in the file ops.NchanTOT and 
+   the location of your channel map file ops.chanMap.
+  -Edit main_kilosort.m so that the paths at the top (lines 3–4) point to your local copies of those GitHub repositories, 
+   and so that the configuration file is correctly specified (lines 6–7).
+
+REQUIREMENTS FOR PHY GUI:
+- Anaconda3
+- GIT
+- npy-matlab 
+      |
+      -> Download npy-matlab as a zip or via Git from https://github.com/kwikteam/npy-matlab.
+         To verify it is installed correctly, go to tests and run test_ReadNPY.m on MATLAB.
+
+
+INSTALLING PHY GUI:
+
+- Install GIT from https://git-scm.com/download/win
+
+- Download Anaconda from https://www.anaconda.com/download/
+
+- Follow reported steps for installing Anaconda
+
+- Run the following commands in Anaconda prompt:
+
+    -Create a new conda environment with the conda dependencies:
+
+      [conda create -n phy2 -y cython dask h5py joblib matplotlib numpy pillow pip pyopengl pyqt pyqtwebengine pytest python qtconsole requests responses scikit-learn scipy traitlets]
+      
+      [Activate the new conda environment with: conda activate phy2]
+
+    -Install the development version of phy: 
+      
+      [pip install git+https://github.com/cortex-lab/phy.git]
+
+
+    -Phy should now be installed. Open the GUI on a dataset as follows (the phy2 environment should still be activated):
+
+      [cd path/to/my/spikesorting/output -------> (really where params.py is)
+       phy template-gui params.py]            Open the GUI once you sorted some spikes and you have a directory where to find params.py (this file is a kilosort output)
+
+
+
+

@@ -1,0 +1,258 @@
+
+4) VISUAL ACUITY DEVELOPMENT AND PLASTICITY IN THE ABSENCE OF SENSORY EXPERIENCE
+   (KANG, DURAND, LEBLANC, HENSCH, CHEN, FAGIOLINI, THE JOURNAL OF NEUROSCIENCE 2013)
+   https://www.jneurosci.org/content/33/45/17789
+
+4.1) ABSTRACT
+     -> Longitudinal study assessing the effects of chronic deprivation influences of the mouse subcortical and cortical visual circuits using a 
+        combination of behavioural optomotor testing, in vivo visual evoked responses (VEP) and single-unit cortical recordings;
+     -> The development of optomotor threshold and VEP acuity can occur in an experience-independent manner (although at a slower rate);
+     -> Monocular deprivation (MD) elicited amblyopia only during a discrete period of development in the dark;
+     -> The rate of recovery of optomotor threshold upon exposure of deprived mice to light confirmed a maturational transition regardless of visual input;
+     -> Results revealed a dissociable developmental trajectory for visual RF properties in dark-reared mice suggesting a differential role for spontaneous 
+        activity within thalamocortical and intracortical cicruits.
+
+
+4.2) INTRODUCTION
+     -> During critical periods (CP), imbalanced visual inputs between the 2 eyes (e.g. monocular deprivation) shifts the spiking response of visual cortical neurons
+        in favor of the open eye and it is accompanied by an enduring loss of visual acuity or amblyopia in the deprived eye (Wiesel and Hubel 1963....Prusky 2000);
+     -> Chronic dark-rearing (CDR) from birth affects the general maturation of several RF properties and the expression of their respective CP plasticity (Regal et al. 1976...Gianfranceshi et al. 2003);
+     -> It is not clear whether this disrupted state represents (1) a circuit permanently fixed in the immature state, (2) a normal cicuit which is delayed in maturation,
+        or (3) a circuit that is miswired in a configuration not seen during normal development;
+     -> Mice were reared in total darkness from birth and exposed to normal light experience at different developmental stages.
+            |
+             -> WHAT WAS TESTED? ----> Development of spatial frequency threshold to moving gratings using optomotor task (OPT);
+                                    -> Visual acuity by in vivo extracellular recording of visual evoked potentials (VEP);
+                                    -> The ability of the CDR visual circuits to respond to MD by recording ocular domincance (OD) 
+                                       plasticity and induction of amblyopia compared to with light-reared (LR) mice;
+
+             -> WHAT WAS DEMONSTRATED? ----> CDR slows the maturation of spatial vision rather then indefinitely halting its development;
+                                          -> There exist a dissociable developmental trajectory for visual RF properties in complete absence of visual sensory esperience;
+                                                        |
+                                                         -> This suggest that spontaneous activity alone is sufficent to establish mature spatial vision.
+
+
+4.3) MATERIAL AND METHODS
+     -> Exeriments were conducted on C57BL/6J males. CDR mice were placed in a tight holding chamber within a dark room at birth, LR animals were raised on a normale 12h light/dark cycle;
+
+     -> MONOCULAR DEPRIVATION: -> Eyelids were trimmed and sutured under isoflurane anesthesia (Gordon and Stryker 1996), the eyelids were reopened immediately before recording.
+     -> VISUAL BEHAVIORAL TEST (OPT): -> Threshold acuity was evaluated using Prusky et al. 2004. The highest spatial freq. tracked for each direction of rotation of the vertical sine-wave gratings 
+                                         was recorded as visual acuity;
+                                      -> Mice were tested every 3-5 days from eye opening until P60;
+                                      -> Experimenters were blind to rearinng condition of the mice nd the animal's recorded thresholds.
+
+     -> VEPs: -> VEPs were recorded from anesthesized mice (50 mg/kg Nembutal and 0.12 mg chlorprothixene) using techniques described in (Porciatti et al. 1999, Durand et al. 2012);
+              -> A tungsten electrode was inserted into binocular V1 at ca. 2.8mm from the midline where RF was approximate 20° from the vertical meridian and lowered to 400-600 micrometer 
+                 from surface of the cortex corresponding to bottom of layer 3 or top of layer 4;
+                    |
+                     -> This position yielded the largest amplitude signal in response to a 0.05 c/d stimulus in V1b
+              -> Visual stimuli were generated using a VSG2/2 card (Cambridge Research system) and custom made software developed by Mr. Orsini, CNR Pisa.
+              -> The dsiplay was placed in front of the animal covering his binocular visual field;
+              -> Signals were bandpass-filtered (0.1-100 Hz);
+              -> Transient VEPs in response to abrupt contrast reversal (100%, 1Hz) were evaluated in the time domain by measuring the peak-to-trough amplitude and peak latency
+                 of the principal negative component (N1);
+              -> At least 3-4 trials consisting of 20 events each were averaged in synchrony with the abrupt stimulus contrast reversal;
+              -> The mean amplitude of negative peak (N1) was plotted against the log of the spatial freq. and the threshold of visual acuity was obtained by extrapolation to zero 
+                 amplitude of the linear regression through the last 4 data points.
+
+       -> SINGLE-UNIT ELECTROPHYSIOLOGLY IN VIVO: -> Electrophysiological recordings were made from the binocular visual cortex (V1b) of anesthetized mice using Gordon and Stryker 1996, 
+                                                     Hensch et al. 1998, Durand et al. 2012);
+
+       -> ORIENTATION SELECTIVITY (OS): -> OS was evaluated by recording single-unit activity across all cortical layers I-V1 using 16 channel probe (Neuronexus, A1x16-3mm50-177)
+                                           lowered into V1b at 3-4 different locations between 2.6 and 3.0 mm lateral to the midline in each mouse.
+                                        -> Signals were filtered from 300 to 5000 Hz and amplified 1000 times, and a threshold was set to separate spokes from noise;
+                                        -> Visual stimuli were delivered to the contralaterl eye and consisted of 3 s long presentation of drifting (2Hz) black and white bars (100% contrast, 0.025 c/d)
+                                           at 12 different orientations (0-360°) spaced 30° apart. Each orientation was repeated 8 times in random order. 8 repetitions of a blank stimulus of intermediate 
+                                           luminance were interspersed throughout the session to evaluate spontaneous activity (Fig.1).
+
+       -> Spikes were sorted based on waveform characteristics and a minimum interstimulus interval of 1.5ms was imposed to ensure single unit isolation. Spiking rates in response to visual stimuli 
+          were determined via MATLAB SigTOOL (Lidierth, 2009);
+       -> Spontaneous activity (SA) was calculated as the mean firing rate in response to blank stimuli;
+       -> Maximum evoked response (R_max) was defined as the maximum firing rate during stimulus presentation;
+       -> Signal-to-noise ratio (SNR)= (R_max-SA)/R_max;
+       -> Orientation selectivity index (OSI) = (R_max-R_ortho)/(R_max+R_ortho) where R_ortho is the response to the orthogonal orientation to preferred orientation;
+       -> Only visually active cells were included in the analysis: -> R_max >= 1.5xSA
+                                                                    -> R_max >= 0.5 spikes/s, unless OSI >= 0.33;
+       -> Fast-spiking putative inhibitory cells were excluded from analysis based on trough-to-peak time <= 0.37ms and peak:trough amplitude ratio >= 0.43 (Niell and Stryker, 2008);
+
+      -> OD: -> 3-4 penetrations across lateral extent of V1b were made with tungsten electrode (FHC) and 5-8 cells spaced at least 70 micrometer apart were recorded for each penetration across I-V1;
+             -> The stimulus was a vertical bar of light (90% luminance), 3°wide, moving horizontally across the screen at 19.05°/s;
+             -> The stimulus was repeated 6 times for each cell and for each eye and responses were averaged across all repetiotions;
+             -> The signal was filtered from 300-5000 Hz and amplified 1000 times;
+             -> Baseline activity was determined based on spiking during 2.5 s of blank screen between each repetition;
+             -> OD score of each cell was calculated by peristimulus time histogram analysis of spiking in response to stimulation of each eye;
+             -> OD score = [(PI-BI)-(PC-BC)]/[(PI-BI)+(PC-BC)] where: -> P = peak
+                                                                      -> B = baseline
+                                                                      -> C = contralateral eye
+                                                                      -> I = ipsilateral eye    (Hensch et al. 1998, fig. 1)
+
+             -> Each cell was assigned a value on the 7-point OD classification scale (Wiesel and Hubel, 1963);
+             -> A contralateral bias index (CBI) was calculated to represent the weighted average of overall ocular dominance in a population of cells
+                           |
+                            -> CBI = [(n1-n7) + 2/3 (n2-n6) + 1/3 (n3-n5) + N]/2N where: -> N = total number of cells 
+                                                                                         -> nx = number of cells with a ranking of x on the 7- point scale (Gordon and Stryker, 1996)
+             
+             -> RF location of a subset of cells was determined by the location in degrees from the vertical meridian of the visual field where the maximum firing rate was evoked by the passing bar of light.
+
+       -> STATISTICAL ANALYSIS: -> Kolmogorov-Smirnov test to see whether the data were normally distributed;
+                                -> Student's t-test was used for datasets that passed the Kolmogorv-Smirnof test;
+                                -> Mann-Whitney test was used for those that were not normally distributed;
+                                -> Student's t-test for statistical significance and presented data are mean +- SEM.
+
+
+
+4.4) RESULTS
+       -> DELAYED MATURATION OF VISUAL ACUITY IN CDR MICE -> Measured spatial freq. threshold using the OPT on P34-P35 CDR mice, the OPT has been used in mice to document that spatial vision rapidly
+                                                             increases from eye-opening (P12-P14) reaching a stable fully developed level by P30 (Prusky et al. 2004, Durand et al. 2012);
+                                                          -> Spatial freq. threshold of LR mice was 0.41 +- 0.003 c/d at P34-P-35;
+                                                          -> Spatial freq. threshold of CDR mice was 0.34 +- 0.004 c/d at P34-P-35 (p = 0.004 Mann-Whitney test, fig 2B left);
+                                                          -> Since OPT response is a behavioral assay system that reflects a combination of subcortical and cortical function (Prusky et al. 2006),
+                                                             visual acuity was also assessed by recording VEPs directly from V1;
+                                                               |
+                                                                -> VEP in response to abrupt high contrast reversal of square gratings were recorded from populationson neurons in layers 3-4 of binocular V1
+                                                                -> Consistent with previous reports: -> CDR until P34-P35 disrupted maturation of visual acuity (0.35 +- 0.01, p= 0.016 Mann-Whitney test);
+                                                                  (Gianfranceschi et al. 2003)       -> In CDR at P55-P65, both OPT and VEP showed improvements compared with LR mcontrol levels
+                                                                                                        (vs LR, respectively, p = 0.2934, t-test; p = 0.96, t-test) (fig. 2B right)
+                                                                                                     -> Comparing the development trajectory of spatial freq. threshold in LR and CDR mice from P18-P62 (fig. 3),
+                                                                                                        |
+                                                                                                         -> Average OPT response of LR mice at P12-P14: 0.145 c/d;
+                                                                                                         -> Average OPT response of LR mice at P25: 0.4 c/d;
+                                                                                                         -> Average OPT response of CDR mice at P18: 0.19 +- 0.01 c/d (LR mice at P18: 0.27 +- 0.05 c/d, p = 0.0001 t-test );
+                                                                                                         -> Average OPT response of CDR mice at P27: 0.34 +- 0.004 c/d;
+                                                                                                         -> OPT response of CDR mice reached the adult level at P55 (> 25 days after LR mice);
+                                                                                                               |
+                                                                                                                ===> SENSORY DEPRIVATION DELAYS, BUT DOES NOT HALT, THE DEVELOPMENT OF OPT THRESHOLD AND VISUAL ACUITY
+
+
+       -> DELAYED CRITICAL PERIOD PLASTICITY IN CDR MICE -> Previous studies show functional OD plasticity extends into older ages in CDR cats, rats and mice (Cynader 1983, Fagiolini 1994, Bartoletti 2004 ...)
+                                                         -> The effects of CDR on CP plasticity were examined by performing 4 days MD starting at different ages during CDR;
+                                                                  |
+                                                                   -> Visually deprived mice were anesthetized in the dark and one eye was sutured. After surgery, animals were placed into normal light/dark cycles.
+                                                                      Such MD usually weakens responsiveness in the deprived eye in favor of the open eye only during a restricted period in juvenile life 
+                                                                      (Wiesel-Hubel 1963, Gordon- Stryker 1996, Fagiolini- Hensch 2000...) and produces an enduring loss of visual acuity.
+                                                                   ->  OD plasticity waas mapped using single-unit recordings in LR mice;
+                                                                          |
+                                                                           -> Short-term MD induced a shift in favor of the normal eye only between P24-P35 (fig. 4A).
+                                                                   -> The OD shift can be summarized as a CBI, which is ca.0.7 in LR mice and 0.5 after MD (fig. 4B);
+                                                                   -> CDR /DID NOT/ yet exhibit OD plasticity at this age range (fig. 4A);
+                                                                   -> The OD distribution started to shift toward the open, ipsilateral eye after MD inly 1 week later in CDR mice (> P35), this plasticity
+                                                                      persisted at least until P55-P65 (fig. 4A);
+                                                                   -> When the adult CDR mice were exposed to normal vision, OD plasticity decreased within a week, suggesting that the closure of the CP
+                                                                      requires visually evoked neuronal activity (fig. 4B).
+                                                                   -> To determine whether OD plasticity was accompanied by amblyopia, VEPs were recorded after 4 days MD starting at P24;
+                                                                        |
+                                                                         -> For the peak ofthe CP in LR mice , acuity through the deprived eye was reduced (fig. 5A),
+                                                                         -> CDR mice did not respond to MD until P24-P30 (possibly due to their low baseline acuity at this age (fig. 2) and lack of OD plasticity (fig. 4)).
+                                                                         -> Consistent with a delayed CP, MD at >P45 robustly reduced acuity in CDR mice (fig 5A right), BUT amblyopia was no longer induced at later stages.
+                                                                         -> By P55-P60, visual acuity was insenstive to MD despite the fact tha OD shifts were still possible in CDR mice (fig 4B,5B),
+                                                                                       |
+                                                                                        -> The 2 cortical properties are dissociable in the dark.
+                                                                   -> As further control, OS was registered: -> In mice, development of OS is complete by P24 (Fagiolini, Hensch 2000), CDR severely degraded OS.
+                                                                      By P55, the OS tuning curve was broader in CDR than in LR and the distribution of OS was shifted to the left (fig. 5C)
+                                                                                       |  
+                                                                                        -> CDR uncouples the trajectory of different RF properties in visual cortical circuits, allowing for the maturation
+                                                                                           of visual acuity and a CP for amblyopia without sensory experience.
+
+
+       -> RAPID RECOVERY OF ACUITY BY LIGHT EXPOSURE IN OLDER CDR MICE -> P18-P62 CDR mice were brought into a lighted room for OPT testing, then returned to an environment on a 12h light/dark cycle;
+                                                                       -> The OPT response for each mouse was then monitored over 1-2 weeks (fig.6A);
+                                                                       -> The potential for plasticity in the cortical circuitry is still present in CDR mice, CDR mice exposed to light for the first time 
+                                                                          exhibited a faster rate of maturation than that of LR mice.
+                                                                       -> The time course of sensory-dependent OPT threshold maturation depended on the age of first light exposure (!!!!)
+                                                                              |
+                                                                               -> This time course was defined as the time to reach half (T_1/2) of the total OPT threshold improvement for each age group of CDR mice.
+                                                                               -> T_1/2 in LR mice was 4 days;
+                                                                               -> T_1/2 in CDR mice was 2.17 days (for those exposed to light at P20), and 1.68 days (for those exposed to light at P34);
+                                                                               -> OPT threshold reaches adult levels over the course of 3 days in CDR mice, in contrast to 6-7 days in LR mice (fig. 6A).
+   
+                                                                       -> OPT threshold maturation time course in LR mice is best fit with a sigmoidal function (fig. 6B). Single (or double) exponential funtions provide
+                                                                          poor fits of the normal  developmental time course as assessed by chi^2 test (fig. 6B).
+                                                                              |
+                                                                               -> These findings indicate  that the visual circuit undergoes different connectivity states during development, and that circuit 
+                                                                                  refinement after prolonged visual deprivation does not follow the same path or process as in normal development.
+
+
+4.5) DISCUSSION
+
+       -> Data demonstrate that visual deprivation from birth (CDR) disrupts spatial vision, OS and OD plasticity to different degrees, and at distinct developmental time points;
+       -> CDR does not halt maturation of both OPT threshold and visual acuity but rather slows it down.
+            |
+             -> Ongoing spontaneous activity is sufficent to drive particular circuit maturation (Rochefort et al. 2011), whereas other RF functions can rapidly reach adult levels
+                only upon the introduction of vision.
+       -> OPT reports largely subcortical function whereas VEP reflects mainly thalamocortical function and single unit recordings report intracortical function;
+       -> Darkness from birth stilla allows subcortical circuits development although at a slower rate. Cortical circuits are more severely affected and retain plasticity when re-exposed to light;
+       -> OPT response and VEP acuity increase in the dark and lose their plasticity in response to MD in adulthood, whereas intracortical circuits remain plastic;
+               |
+                ===> Consequently, subcortical and cortical maturation is not coordinated over development in CDR mice.
+
+       -> In CDR rats, single-unit and VEP recordings exhibit immature neuronal function, reduced activity and persistent OD plasticity up to P60 (Bartoletti 2004), 
+          one potential explanation for differences across species is that the time course of cortical development is significantly prolonged in rats as compared with mice,
+          longer periods of DR may then be needed to detect maturation of acuity independent of vision in higher mammals.
+       -> Results dissociate ocular dominance plasticity and loss of acuity in the dark, the two properties reflect distinct cortical circuits with differential dependence on experience,
+                |
+                 -> OD, recorded at the level of single cells, is evaluated across all cortical layers, although binocularity is more pronunced in the output layers II/III;
+                 -> Visual acuity, quantified by VEPs, is assessed in the time domain by measuring the peak-to-trough amplitude and peak latency of the principal negative component (N1),
+                    which is heavily weighted toward deep layer III and thalamo-recipient layer IV;
+       -> Susceptibility of different circuits to sensory experience may also effect distinct molecular signaling pathways for plasticity in excitatory versus inhibitory neurons (Hersch 2005)
+               |
+                -> Classical delay of OD plasticity by CDR can be prevented by directly enhancing inhibition in the dark: by infusion of benzodiazepines (Iwai et al. 2003), Otx2 homeoprotein (Sugiyama et al. 2008)
+                   or genetic overexpression of BDNF (Gianfranceschi et al. 2003);
+                     |
+                      Do these manipulation also impact the maturation of acuity in dark?????
+
+       -> Recovery rates in CDR mice suggest altered trajectory of acuity development, CDR does not simply delay cortical development but may activate signaling pathways that specifically maintain or
+          increase the plasticity potential of V1 (Majdan and Shatz 2006, Tropea et al. 2006, Dahlhaus et al. 2011)
+         |
+          -> Differential impact of CDR on the "molecular brakes" that would normally limit CP development may need to be considered.
+                                                                        
+                                                                   
+
+                                                                                                                                     
+                                                                                                                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

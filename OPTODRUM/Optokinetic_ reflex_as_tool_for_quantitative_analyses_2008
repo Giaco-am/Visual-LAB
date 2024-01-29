@@ -1,0 +1,161 @@
+3) The Optokinetic Reflex as a Tool for Quantitative Analyses of Nervous System Function in Mice:Application to Genetic and Drug-Induced Variation
+   (CAHILL, NATHANS, PLOS ONE 2008)
+   https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0002055&type=printable
+
+3.1) ABSTRACT
+
+     -> Optokinetic reflex (OKR) --> Requires no training;
+                                  -> Assesses the function of diverse CNS circuits;
+                                  -> Can be induced repeatedly with minimal fatigue or adaptation;
+                                  -> Produces an electronic record that is readily and objectively quantifiable.
+
+     -> New type of OKR test apparatus in which computer-controlled visual stimuli and streamlined data analysis are used in conjunction with infrared imaging to quantify basic OKR stimulus-response 
+        characterics for C57BL/6J and 129/SvEv mouse strains and for genetically engineered lines lacking one or more photoreceptor systems or with an alteration in cone spectral sensitivity.
+
+     -> RESEARCH OBJECTIVES: -> We demonstrate the sensitivity and high temporal resolution of the OKR for quantitative analysis of CNS drug action,
+                                Experiments show that the mouse OKR is well suited for neurologic testing in the context of drug discovery and large-scale phenotyping programns.
+
+
+3.2) INTRODUCTION
+
+     -> Image stabilization, noted in the context of head turning reflex, is mediated by 2 types of oculomotor responses:
+            -> Optokinetic reflex (OKR, also called optokinetic nystagmus OKN), it is induced when the entire visual scene drifts across the retina, eliciting eye rotation in the samen direction
+               and at a velocity that minimizes the motion of the image on the retina
+            -> Vestibular-ocular reflex (VOR), is an analogous response to head movement, with input coming from the vestibular system rather than the retina.  
+               (Stahl JS 2004 Using eye movements to assess brain function in mice. Vision Res 44: 3401–3410) (Leigh RJ, Zee DS (2006) The Neurology of Eye Movements (fourth edition). Oxford: Oxford University Press. 762 p.)
+            -> Normally OKR and VOR work together to ensure image stabilization on the retina over a wide range of head and body motions.
+            -> Both OKR and VOR are controlled by subcortical circuits:
+                    |
+                     -> OKR is controlled by neurons in the retina, diecephalon and midbrain, pons and dorsal medulla;
+                     -> VOR is controlled by neurons in the labyrinth of the inner ear, midbrain, pons, dorsal medulla and cerebellum.
+
+            -> One barrier to the wider use of mouse oculomotor testing is its relatively low throughput.
+
+3.3) RESULTS 
+
+     -> In rodents, the lateral placement of the eyes provides a visual field that subtends ca. 270° in the horizontal plane;
+     -> The optodrum rotates around its axis and the OKR is monitored either by: -> Tracking the orientation of a scleral search coil (a magnetic ring thaat is fixed to the outer surface of the eye)
+                                                                                 -> Using an infrared video camera to view the position of the pupil.
+     -> Optodrum method has the virtue that image motion is uniform and continous;
+     -> APPARATUS: -> A projector and a laptop are mounted on a motorized rotating stage suspended 2 meters above the floor, with the optical axis of the projector coincident with both the axis of rotation 
+                      of the stage and the axis of a white cylindrical test chamber at the floor level. A radially symmetric image on the computer screen appears as a series of vertical lines when projected 
+                      onto the cylindrical wall of the chamber. A small window in the wall of the chamberpermits an infrared light source and video camera to image the eye of an awake and head posted mouse. (see figure 1B-D in paper)
+
+
+     -> The schematics of the visual stimulus over a 90 sec period represents: -> A uniform grey during the first and last 30 sec;
+                                                                               -> A pattern of black and white stripes (each stripe subtending 4°) rotating at 5°/s in temporonasal direction
+                                                                               -> Refer to figure 2 in paper.
+     -> ISCAN software was used to monitor the positions of (1) the pupil, the principal sink for both visible and infrared radiation and (2) the point of reflection of incident infrared radiation at the surface of the cornea.
+                    |
+                     -> For relatively small eye movements, the distance between the center of the pupil and the corneal reflection is roughly proportional to a frontal projection of the angular deflection of the eye (Sakatani and Isa 2004);
+                        this proportinality would be constant if: -> The eye was a perfect sphere that rotated about its center;
+                                                                  -> The pupil was located at the surface of the sphere. (Both reasons are approximately true)
+
+     -> The OKR offers some parameters for quantitative evaluation, including the number of eye tracking movements (ETMs) per unit time and the gain (the angular velocity of the eye relative to the angular velocity of the stimulus);
+     -> DEFINITION OF ETM: -> one slow tracking movement followed by one saccade.
+     -> In animals without a fovea, the gain is usually more than unity, with the result that the image is not fully stabilized on the retina.
+     -> the number of ETMs per unit time is easily quantified by automated procedures based on the first derivative of eye position with respect to time or with a neural network (?) (figure 2A).
+     -> A simple algorithm eliminates many artifacts by discounting all supra-threshold first derivative excursions in the "correct" direction that occur within 470 ms of a supra-threshold excursion in the "wrong" direction.
+     -> OKR reaches its steady state form within one second of the onset of stimulus motion and it shows no adaptation over more than 20 min of continuous stimulation (an interval which encompasses over 600 ETMs) (figure 2B);
+               |
+                -> C57BL/6J mice subject to 2 h of continuous oscillatory visual stimuli exhibited a modest increment in OKR performance over time (Iwashita et al. 2001);
+                   with a slow increase in gain from 0.4 to 0.6 and a slow decrease in phase lag from 15° to 8°;
+      -> The frequency of ETMs is roughly proportional to the average velocity of the slow component (fig. 2C);
+
+      -> PHOTORECEPTOR TYPES RESPONSIBLE FOR THE MURINE OKR:
+            -> As a test of the sensitivity and specificity of OKR to variations in underlying physiologic parameters, a response to scotopic or photopic light levels (average stimulus intensities of 0.3 lux or 200 lux respectively) was explored;
+            -> This response was systematically explored in a variety of mice in which rods, cones, or intrinsically photosensitive retinal ganglion cells (ipRGCs) were eliminated individually or in various combos;
+            -> Mice with functional rods but lacking functional cones and ipRGCs show an OKR only at scotopic light levels (fig. 3A, line 3). In the complementary setting mice show an OKR only at photopic light levels (fig. 3A, line 4),
+               mice lacking both cones and rods, with or without ipRGCs show no OKR at any light level (fig. 3A, line 5 and 6);
+            -> Testing OKR under photopic light levels, rods continue to drive OKR unless the pupil constriction is blocked eitheer pharmacologically or by genetically eliminating ipRGC function, presumably because  pupil constrictioondecreases the light intensity at the retina
+               to the point where the rod system remains active.
+            -> To further measure the sensitivity of the OKR to underlying retinal physiology, we determined the spectral sensitivity of the cone-driven OKR in mice that differed with respect to the spectral sensitivity of their longer wavelenght cone pigment;
+                  |
+                   -> 2 types of cone pigment: -> S pigment, with max absorption at 360 nm;
+                                               -> M pigment, with max absorption at 510nnm (encoded on the X-chromosome);
+            ########## IF INTERESTED, PAG. 4/5/6 ##########
+
+      -> STIMULUS-RESPONSE PARAMETERS FOR THE MURINE OKR
+            -> To compare basic response properties of the OKR between C57BL/6J and 129/SvEv, we have analyzed the effect of contrast, spatial freq., angular velocity, monocular vs binocular presentation, and direction of rotation, in each case quantiying the OKR response by determining the average 
+               number of ETMs per 30 sec stimulus interval. Contrast and spatial freq. thresholds have been measured by visual inspection of head and body turning in freely moving mice.
+            -> Decreasing the contrast of the light and dark stripes progressively reduces the strenght of the OKR with a threshold of detection (arbitrarily defined as greater of 1 ETM per 30 sec interval);
+            -> For C57BL/6J mice at ca. 2% contrast and for 129/SvEv at ca. 6% contrast (fig. 5A and S2);
+                  |
+                   -> The optimal spatial freq. for both occurs at a stripe width of ca. 3°, which subtends ca. 90 um at the retina if we take 1.69 mm as the average diameter of murine eye (fig. 5B);
+                   -> This spatial freq. is higher than the average RF diameter of murine retinal ganglion cells (estimated to be ca. 130 um (Smallwood et al. 2003), or ca. 200 um (Balkema et al. 1982));
+                   -> The OKR response to angular velocity between 2° and 13° per sec shows that both strains have broad sensitivity with a roughly linear response over this range (fig. 5C);
+                   -> Saccade-to-saccade variability becomes more pronunced with suboptimal stimuli;
+                   -> Monocular temporonasal motion induces strong OKR in both eyes, whereas monocular nasal-to-temporal motion induces only a weak OKR  (compare fig 6A, lines 5 and 6 vs lines 7 and 8);
+                   -> The OKR is nulled by symmetric binocular temporonasal or nasotemporal motion;
+                   -> SEE FIG. 6A/6B for ETMs numeric results.
+
+      -> PLOYGENIC INHERITANCE OF STRAIN DIFFERENCES IN THE OKR
+            -> Substantial variations have been reported in OKR response amplitudes in various inbred strains of mice (Balkema et al. 1984, Mangini et al. 1985);
+            ->  129/SvEv mice showed a smaller saccade amplitude greater ETM frequency, and a greater uniformity of the OKR relative to C57BL/6J Additionally, 129/Sv
+                has a significant phase defect in an oscillatory visual stimulus paradigm relative to C57BL/6J.
+            -> To assess the mode of inheritance of saccade frequency, nine mice from each strain,  eight C57BL/6Jx129/SvEv F1 mice, and 74 F2 mice were tested to determinee maximal number of ETMs per 30 sec.
+               For this analysis the maximal number of ETMs was used rather than the mean because the STD of the maximal number is smaller than the STD of the mean (????);
+                     |
+                      -> The resulting distributions demonstrate that this characteristic is inherited as a polygenic trait, as judged by the relatively narrow distributionof ETMs in F2 gen. (fig. 7)
+
+      -> THE OKR AS A QUANTITATIVE MEASURE OF CNS DRUG ACTION
+            -> Initial test idea: we have examined the time course of ketamine actionon the mouse OKR following intraperitoneal delivery (fig. 8)
+                  |
+                   -> Results are shown in fig. 8
+
+
+3.4) DISCUSSION
+      -> Description of a new OKR test apparatus;
+      -> Use of infrared imaging to monitor the murine OKR and then quantify the number of ETMs per unit time;
+      -> This test was used to define the basic OKR stimulus-response characteristic of C57BL/6J and 129/SvEv and of genetically engineered variants that lack one or
+         more photoreceptor systems or that have an altered spectral sensitivity;
+      -> It shows that the characteristic difference in OKR frequency between C57BL/6J and 129/SvEv is inherited as a polygenic trait;
+      -> It demonstrates that the mouse OKR can be used as a sensitive and quantitative assay for drug action in the CNS;
+            |
+             -> Furthermore, the ketamine experiment demonstrates the high sensitivity and temporal resolution of the OKR in monitoring drug effects on CNS function.
+
+      -> FUTURE INVESTIGATIONS: -> OKR could be used to quantify drug-induced sedation or arousal;
+                                -> To monitor the progression or the therapeutic response of neurodegenrative disease;
+                                -> To quantify the functional response to stem cell, pharmacologic or genetic approaches aimed at restoring vision in the context of retinal degenrative disease.
+
+
+3.5) METHODS
+      -> For surgery details see first paragraph at pag. 10
+
+      -> OKR APPARATUS
+         |
+          -> Stimuli were projected into a clear plastic drum (29.5 cm diameter x 61 cm height);
+          -> A head-posted mouse centered within the cylinder and 20 cm below the upper edge of the cylinder, sees the stimulus throughout the visual field 
+             except for a vertically centered cone subtending ca. 35°;
+          -> To deliver scotopic light, neutral density filters (ThorLabs; Newton,NJ) were placed in the light path.
+
+
+       -> VISUAL STIMULI were designed in Adobe Photoshop and displayed using PowerPoint;
+         |
+          -> OKR stimuli were presented as alternating 30-sec intervals of moving black and white stripes and of a uniform grey;
+          -> The uniform grey illuminant used during the rest periods was set to an intensity that delivered the same number of photons as the average of the black and white striped OKR stimuli;
+          -> The pupil neither constricts nor dilates during transitions between rest and stimulus intervals;
+          -> For monocular stimulation, an opaque panel was placed over one-half of the test cylinder.
+
+      -> OKR MEASUREMENTS AND DATA ANALYSIS
+         |
+          -> 10 microl of 3% pilocarpine hydrochloride or 3% carbamoylcholine chloride was applied to the eye to induce constriction, which improved the accuracy of the calculation
+             that identifies the center of the pupil and improves scotopic light measurements.
+          -> ISCAN software locates the horizontal and vertical axes, excursions > 1.15 mm from the mean eye position were discarded.
+          -> ETM assignments were made by visual inspection, by thresholding the first derivative of eye position , or by NeuralWorks Predict Version 3.13 (NeuralWare, Carnegie PA).
+
+      -> KETAMINE EXPERIMENTS
+         |
+          -> For each mouse, the OKR was recorded before and >24 h after drug exposure using the standard 30 seconds on/30 seconds
+             off OKR stimulus paradigm (Figure 2) with alternating clockwise and counterclockwise rotation;
+          -> 75 mg/kg ketamine by IP injection, and the mouse was immediately transfered to the recording chamber;
+          -> A strong optokinetic stimulus (4° wide black and white stripes rotating at 5° /s ) was continuously displayed during the 15-20 min recording session;
+          -> The OKR recordings were splitted in 30 sec intervals and the following parameters were calculated:
+                     -> Number of  ETMs as determined by automated thresholding of the first derivative (fig. 2);
+                     -> The distribution of and STD of eye position (1800 data points per interval).
+                           |
+                            -> The eye position data file was subject to a local smoothing procedure (formula at pag.10).
+                            -> To calculate STD of eye position in 30 sec intervals, the eye position at each time point was modified by subtracting from it the average eye position over a 3 sec moving window 
+                               centered at that time point.
+         -> To evaluate drug-induced changes in the slow component of the OKR, individual ETMs were alligned and averaged beginning with
+            the first time point after the end of the fast component (fig. 8D).

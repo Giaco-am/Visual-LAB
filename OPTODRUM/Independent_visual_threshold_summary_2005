@@ -1,0 +1,139 @@
+2) INDEPENDENT VISUAL THRESHOLD MEASUREMENTS IN THE TWO EYES OF FREELY MOVING RATS AND MICE USING A VIRTUAL-REALITY OPTOKINETIC SYSTEM
+   (DOUGLAS, ALAM, SILVER, MCGILL, TSCHETTER, PRUSKY VISUAL NEUROSCIENCE 2005)
+   https://www.cambridge.org/core/journals/visual-neuroscience/article/independent-visual-threshold-measurements-in-the-two-eyes-of-freely-moving-rats-and-mice-using-a-virtualreality-optokinetic-system/90139002653B50830B3AF2B78D5C5105
+
+2.1) ABSTRACT
+
+     -> Slow horizontal head and body rotation occurs in mice and rats when the visual field is rotated around them;
+     -> If one eye is closed, only motion in the temporonasal direction for the contralateral eye evokes the tracking response;
+     -> Monocular acuity is identical to the binocular acuity measured with same rotation direction => visual capabilities of each eye can be measured under binocular conditions simply 
+                                                                                                       by changing the direction of rotation.
+
+     -> Lesions of the visual cortex had no effect on the acuities measured with optodrum (they did in the Visual Water Task);
+     -> Optokinetic acuities were consistently lower than acuity estimates from Visual Water Task, but constrast sensitivities were same or better;
+     -> Head-tracking in a optodrum is driven by subcortical, lower frequency and contralateral pathways.
+
+2.2) INTRODUCTION
+
+       -> VISUAL WATER TASK (WWT): -> visual perception task in which animals discriminate between two computer-generated stimuli (i.e. for
+                                      spatial vision, a sinusoidal grating and a gray of the same mean luminance). Animals are placed into one end of a water-filled tank
+                                      that has two computer monitors facing into arms at the opposite end. An invisible platform is placed just below the water’s surface
+                                      under the reinforced + stimulus, and animals are rewarded for locating this stimulus by swimming to the platform and escaping from the water;
+                                   -> Spatial visual thresholds are determined by gradually increasing the spatial frequency, or lowering contrast of a grating.(Prusky et al. 2000a)
+
+                                   -> USED FOR:-> Pigmented mice's visual acuity -> 0.5 cycles/deg (Prusky et al. 2000a) |  peak contrast sensitivity of 6% (Prusky & Douglas, 2003; McGill et al., 2004a);
+                                               -> Rats' visual acuity -> 1 cycles/deg (Prusky et al. 2000a) |  peak contrast sensitivity of 25% (Prusky & Douglas, 2003; McGill et al., 2004a);
+                                               -> There are strain differences in acuity (Prusky et al. 2002);
+                                               -> Visual deprivation during "critical" period for ocular dominance plasticity (Gordon & Stryker, 1996; Fagiolini et al., 1994) 
+                                                  can induce amblyopia (Prusky et al., 2000c; Prusky & Douglas,2003);
+                                               -> Changes in acuity can affect performance in a memory task (Pursky et al., 2000b)
+                                   
+                                   -> LIMITATION:-> It requires about 2 weeks to train an animal and then determine the threshold => it cannot be used during early development or during anestesia.
+
+       -> Prolonged rotation of the optodrum causes slow head movement called OPTOMOTOR TRACKING;
+       -> Monitoring the position of a freely moving rat with a camera, the drum can be kept centered on the head;
+       -> Lower optokinetic acuities in optodrum probably reflect the properties of the retinal efferents to subcortical structures      (!!!!!)
+       -> VWT is more sensitive to what is being conveyed by the geniculo-cortical pathways.
+       -> Animals would track reliably in one direction but not the other ===> differences seen with the different directions reflected the different acuities of the two eyes (hypothetically)
+                |
+                 -> A similar pattern has been reported with optokinetic nystagmus in which each eye drives a different direction of the slow phase eye movements(Hobbelen & Collewijn, 1971; 
+                    Grusser-Cornehls & Bohm, 1988; Harvey et al., 1997)
+
+       -> IF EACH EYE COULD BE TESTED WITH A DIFFERENT DIRECTION OF VISUAL MOTION, IT WOULD ALLOW TO IDENTIFY THE CENTRAL PATHWAYS CONVEYING THE VISUAL INFORMATION    (!!!!)
+
+
+2.3) MATERIALS AND METHODS (experimenter judged whether or not to score HT)
+
+       -> 60-150 days old pigmented Long Evans rats (n=18) and C57BL/6 mice + 9 albinos (involved in only one study);
+       -> OptoMotry software projected a virtual cylinder covered with vertical sine-wave grating  onto four computer monitors in a box;
+       -> spatial frequency of the grating was “clamped” at the animal’s viewing position by manually tracking the head and using the coordinates to keep 
+          the center of the cylinder aligned with it;
+       -> ROTATIONAL SPEED = 12°/s;
+       -> Large repositioning and grooming movements were ignored and trials were restarted if presence of head tracking was not clear;
+       -> Visual thresholds were obtained with a STAIRCASE procedure in which the step size was halved after each reversal, one staircase for each direction
+           of rotation;
+       -> The maximum spatial frequency capable of driving head tracking (acuity) was determined first, the Contrast Sensitivity at 6-8 different spatial freq. was then measured;
+       -> Tipically, a total of 14-18 thresholds could be recorded in a 25-40 min session;
+
+
+
+       -> HOW TO DEAL WITH EXPERIMENTER BIAS?   
+               -> "for 1 experiment we altered the system so that the experimenter could not see which way the stimulus was rotating",
+               -> The staircase procedure was such that 2 corect answers in a row advanced it to a higher spatial frequency, while one wrong
+               -> backed it up to a lower freq.
+
+       -> SURGERY:
+               -> suturing one eye for monocular testing;
+               -> Isoflurane (induction at 2.5%-4.5%, maintenance 1%-2% in 1-1.5 l/min O_2)  (check Surgery par. for details on suturing surgery);
+               -> Visual acuity was measured 1-2 h before surgery and then few h after recovery.   
+               -> Look surgery paragraph for details on Cortex lesion.
+
+
+2.4) RESULTS
+
+       -> Tracking of rats was more time consuming and less robust compared ti mice;
+       -> Measurments on visual acuity and contrast thresholds at eight different spatial frequencies were conducted in a single 30-45 min session;
+       -> The optomotor system (HT) is shifted towards lower spatial frequencies,
+       -> Optomotor acuity is significantly less than the acuity obtained with the VWT. For rats the difference was 46%, with a mean of 0.54 (/pm 0.0013 c/d), 
+          Long Evans rats typically have a VWT acuity of close to 1.0 c/d (Prusky et al. 2000a).
+
+       -> DEPENDENCE ON DIRECTION:
+            -> Small systematic differences in both contrast and acuity thresholds: near threshold an animal would traick in one direction but not the other;
+            -> For rats there was a range of about 0.02 c/d between animals. This corresponds to a difference of 7 cycles around the whole drum;
+            -> The acuities tended to be correlated such that an animal with high acuity with clockwise motion would also have a high acuity when the rotation was counterclockwise,
+            -> These two acuities were rarely identical, moreover, the differences between the directions of motion were consistent.
+            -> OF NOTE: The average variation in acuity from day-to-day retest was 2-5 times smaller than the average difference between directions of motion.
+               ===> Difference in direction is not likely due to measurement error.
+                     |
+                      -> Suturing left eye, they did not see tracking at any freq with clockwise rotation, when the motion was reversed, tracking was normal and acuities could be measured.
+                         The complementary pattern happened when the righ eye was closed
+                              |
+                               ===> FOR EACH EYE, ONLY MOTION IN THE TEMPORONASAL DIRECTION EVOKES TRACKING  (!!!!!)
+
+
+       -> Absence of any effect of cortical lesions on optomotor tracking was observed in rats.
+
+       -> ALTERNATIVE PROCEDURES:
+            -> Approach by Coffey et al. 2002: -> For each 3 spatial freq (0.125,0.25,0.5 c/d) the animals' behaviour was recorded while rotating session lasted 60 sec;
+            -> 4 stimulation periods were recorded each day for 3 consecutive days ----> DECLINE IN PERFOMANCE AS THE FREQUENCY APPROACHES 0.5 C/D
+            -> This analysis is less efficient: it takes days rather than minutes to get an estimate, and no specific visuospatial threshold is generated.
+
+
+2.5) DISCUSSION
+
+       -> Virtual optokinetic system can even measure acuity in an animal with poor OKN (e.g. albino rat);
+       -> It provides a pure measure of the capability tof subcortical retinal efferents;
+       -> Independent testing of the two eyes is possible simply by controlling the direction of rotation (Also reported in Thomas et al. 2004),
+          this behaviour is due to the crossed subcortical projections from the eyes.
+       -> Total range in acuity measurements is tipically about 0.02 c/d, which is less than 5% of average acuity values
+            |
+             -> WHY? -> The sudden appearence of the stimulus appears to attract the animal's attention, it is not necessary to have exentended stimulus durations as the relevant 
+                        behaviour happensalmost immediately;
+                      -> Animals are unrestrained and the lack of stress may lead to more consistent behaviour;
+                      -> Stimulus appearance can be repeated several times within a few seconds if the experimenter wishes to confirm whether tracking is present;
+                      -> We determine visual thresholds, which probably vary little from animal-toanimal in an in-bred laboratory strain.
+       ->Counting the number of seconds an animal tracks each stimulus is analogous to making magnitude estimates with human observers, BUT what does a 50% decline in the tracking duration mean in terms od vision??
+
+       -> Cortical lesions had no effect on visual thresholds, this suggest that the acuity and contrast thresholds reflect properties of retinal afferents to subcortical structures
+          like the Accessory Optic System (AOS) (https://escholarship.org/content/qt3v25z604/qt3v25z604.pdf?t=lnpyco). 
+               |
+                -> Cortical lesions also have no effect on OKN eye movements (Hobbelen & Collewijn, 1971; Harvey et al.,1997), suggesting the two components of gaze stabilization share a common pathway.
+
+       -> While there is a small ipsilateral projection in rats from each eye to the cortex, it does not seem sufficent to confer binocularity to the rat optokinetic system;
+       -> If the cortex plays no role in the visual tracking, then the question arises as to what the cortical projections to the AOS do. Miles (1998) has proposed that cortical pathway is primarly
+          there to cope with traslational movements that change the distance to an attended optic flow field
+            |
+             -> the rotational stimuli used here are not those that would engage the cortical pathway(especially if cylinder is centered on the head).
+
+       -> ACUITY = MAXIMUM SPATIAL FRQUENCY THAT EVOKED AN OPTOMOTOR RESPONSE
+       -> Acuity is lower in Optodrum than that seen in VWT, meanwhile the estimates of contrast sensitivity were equal to or higher than those  measured by VWT;
+          The shift may reflect an overall lower spatial frequency bandwidth for the circuitry driving the optomotor response (consistent with the notion that 
+          the HT is driven by the same subcortical visual pathways as OKN movements).
+
+       -> The Nucleus of the Optic Track and the Dorsal Terminal Nucleus  of the AOS are the nuclei concerned with horizontal tracking. Spatial frequency tuning of cells in these nuclei have not been determined, but
+          they have large RF which is consistent with a lower spatial-frequency preference.
+
+
+
+
+

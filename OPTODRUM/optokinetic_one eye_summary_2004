@@ -1,0 +1,74 @@
+1) OPTOKINETIC TEST TO EVALUATE VISUAL ACUITY OF EACH EYE INDEPENTDENTLY 
+   (THOMAS, SEILER, SADDA, COFFEY, ARAMANT JOURNAL OF NEUROSCIENCE METHODS 2004)
+   https://escholarship.org/content/qt6w77n1h3/qt6w77n1h3_noSplash_79255ade4558182592efae44b0f3444b.pdf?t=o94b47
+
+1.1) ABSTRACT
+    -> Retinal degenerate (R-Deg) rats with retinal transplant (R-Tran) in 1 eye;
+    -> In rats with R-Tran, visual responses were preserved in trasplanted eyes at late stages of R-Deg;
+    -> Contrinbutions from the fellow eye to the optokinetic tracking response can be limited by Optodrum.
+
+1.2) INTRODUCTION
+    -> Optokinetic response helps reduce the movement of the images of the external world across the retina;
+    -> Head-tracking (HT) test scores the total time spent tracking movements therefore establishing a measure of visual function;
+        -> By varying stripe width a measure of visual acuity can be established.
+    -> Only pigmented rats 
+    
+
+1.3) MATERIALS AND METHODS    
+    -> COMPARING ORIGINAL HT METHOD TO PROPOSED ONE:
+        -> OG: 
+           - Rotating drum with alternating high-contrast stripes of 3 different spatial frequencies (0.125, 0.25, and 0.5 cycles/degree);
+           - Allows free movement of the animal;
+           - Both eyes are exposed to optokinetic stimulus ( presumption that each eye responds primarily to movement in one direction only) => contribuiton of both eyes cannot be ruled out.
+        -> PROPOSED:
+           - Rotating drum with alternating high-contrast stripes of 3 different spatial frequencies (0.125, 0.25, and 0.5 cycles/degree);
+           - Half of rotating drum is evenly illuminated, other half rotates behind a stationary black wall;
+           - the animal is placed in a tube and prevently trained to not crawl out of it.
+           => Only one eye responds to OptoKin stimuli.
+
+    -> Rats are tested for 4 min during one session, 2 min for each eye, 1 min for each direction of the striped drum;
+    -> Time spent turning the head following the drum's rotation is recorded as 'head-tracking';
+    -> Two different stripes widhts correspond to two grating frequencies of .25 cycles/deg (1 cm, medium stripes), and .125 cycles/deg (2cm, large stripes); 
+       Costant rotational speed = 2 turns per minute of the drum (12°/s).
+
+    -> OPTOKINETIC TESTING PROTOCOL
+        -> 120-day old normal pigmented Long Evans rats and 135-/205- day old transgenetic pigmented s334ter-line-3 R-Deg rats;
+        -> Animals were tested WEEKLY (avoiding habituated behaviour) from 130 to 240 days of age  (all animals were already accustomed to the apparatus);
+        -> Total HT score (both temporonasal, nasotemporal) for each eye was computed;
+        -> A head turn was scored only when speed of tracking matched speed of rotation;
+        -> OF NOTE: .125 cycles/deg provided the most robust HT response.
+        -> Paired t-test, two tailed for statistical comparisons.
+
+
+1.4) RESULTS
+    -> Highly asymmetrical HT score (P<0.001) was observed when comparing responses to rotation of the drum in NASOTEMPORAL vs the much stronger response to TEMPORONASAL direction;
+    -> Less pronunced difference between clockwise/ counter-clockwise (but still more pronunced than the one observed in OG app.);
+    -> With proposed app., HT score of mainly monocular nasotemporal stimulation was lower than the HT score of binocular testing;
+    -> At early age (135 days) S334ter-line-3 rats showed a considerable level of visual function and robust HT response. At this age HT scores were the same in OG and Proposed app.;
+    -> At later stage of degeneration of S334ter-3 rats (after 205 days) HT score of temporonasal stimulation was reduced.
+
+
+1.5) DISCUSSION
+
+    -> The proposed apparatus showed better monocular visual behavioural testing in rats;
+    -> During monocular visual behavioral testing, the HT scores for nasotemporal and temporonasal stimulation are highly asymmetric;
+    -> When both eyes are simultaneously exposed to the stimulus (one eye is stimulated in a nasotemporal direction and the other is
+       stimulated temporonasally) the degree of asymmetry (counterclockwise versus clockwise rotation) is attenuated in all
+       the rats tested.  
+             |
+             -> hp: observed HT response is mostly derived or driven by the eye receiving the temporonasal stimulation.
+    -> If the rats move, the distances to the drum stripes and thus the apparent rotatation speed will be slightly different for each eye and regardless
+       of the direction of drum rotation, tracking in the preferred direction (TEMPORONASAL) is happening with either one of the eyes!   MAYBE WE COULD SET UP THE SCREEN TO ACCOUNT FOR THIS!
+
+
+
+
+
+
+
+
+
+
+
+
+
