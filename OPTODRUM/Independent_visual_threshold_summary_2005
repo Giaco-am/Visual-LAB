@@ -45,7 +45,7 @@
 2.3) MATERIALS AND METHODS (experimenter judged whether or not to score HT)
 
        -> 60-150 days old pigmented Long Evans rats (n=18) and C57BL/6 mice + 9 albinos (involved in only one study);
-       -> OptoMotry software projected a virtual cylinder covered with vertical sine-wave grating  onto four computer monitors in a box;
+       -> OptoMotry software projected a virtual cylinder covered with vertical sine-wave grating  onto four computer monitors in a box (Fig.1);
        -> spatial frequency of the grating was “clamped” at the animal’s viewing position by manually tracking the head and using the coordinates to keep 
           the center of the cylinder aligned with it;
        -> ROTATIONAL SPEED = 12°/s;
@@ -71,16 +71,16 @@
 
 2.4) RESULTS
 
-       -> Tracking of rats was more time consuming and less robust compared ti mice;
+       -> Tracking of rats was more time consuming and less robust compared to mice;
        -> Measurments on visual acuity and contrast thresholds at eight different spatial frequencies were conducted in a single 30-45 min session;
        -> The optomotor system (HT) is shifted towards lower spatial frequencies,
        -> Optomotor acuity is significantly less than the acuity obtained with the VWT. For rats the difference was 46%, with a mean of 0.54 (/pm 0.0013 c/d), 
-          Long Evans rats typically have a VWT acuity of close to 1.0 c/d (Prusky et al. 2000a).
+          Long Evans rats typically have a VWT acuity of close to 1.0 c/d (Prusky et al. 2000a) (Fig.2).
 
        -> DEPENDENCE ON DIRECTION:
-            -> Small systematic differences in both contrast and acuity thresholds: near threshold an animal would traick in one direction but not the other;
+            -> Small systematic differences in both contrast and acuity thresholds: near threshold an animal would track in one direction but not the other;
             -> For rats there was a range of about 0.02 c/d between animals. This corresponds to a difference of 7 cycles around the whole drum;
-            -> The acuities tended to be correlated such that an animal with high acuity with clockwise motion would also have a high acuity when the rotation was counterclockwise,
+            -> The acuities tended to be correlated such that an animal with high acuity with clockwise motion would also have a high acuity when the rotation was counterclockwise (fig. 3B),
             -> These two acuities were rarely identical, moreover, the differences between the directions of motion were consistent.
             -> OF NOTE: The average variation in acuity from day-to-day retest was 2-5 times smaller than the average difference between directions of motion.
                ===> Difference in direction is not likely due to measurement error.
@@ -104,17 +104,17 @@
        -> Virtual optokinetic system can even measure acuity in an animal with poor OKN (e.g. albino rat);
        -> It provides a pure measure of the capability tof subcortical retinal efferents;
        -> Independent testing of the two eyes is possible simply by controlling the direction of rotation (Also reported in Thomas et al. 2004),
-          this behaviour is due to the crossed subcortical projections from the eyes.
-       -> Total range in acuity measurements is tipically about 0.02 c/d, which is less than 5% of average acuity values
+          this behaviour is due to the crossed subcortical projections from the eyes (Fig. 4).
+       -> Total range in acuity measurements is tipically about 0.02 c/d, which is less than 5% of average acuity values;
             |
              -> WHY? -> The sudden appearence of the stimulus appears to attract the animal's attention, it is not necessary to have exentended stimulus durations as the relevant 
                         behaviour happensalmost immediately;
                       -> Animals are unrestrained and the lack of stress may lead to more consistent behaviour;
                       -> Stimulus appearance can be repeated several times within a few seconds if the experimenter wishes to confirm whether tracking is present;
-                      -> We determine visual thresholds, which probably vary little from animal-toanimal in an in-bred laboratory strain.
+                      -> We determine visual thresholds, which probably vary little from animal-to-animal in an in-bred laboratory strain.
        ->Counting the number of seconds an animal tracks each stimulus is analogous to making magnitude estimates with human observers, BUT what does a 50% decline in the tracking duration mean in terms od vision??
 
-       -> Cortical lesions had no effect on visual thresholds, this suggest that the acuity and contrast thresholds reflect properties of retinal afferents to subcortical structures
+       -> Cortical lesions had no effect on visual thresholds (Fig.6), this suggest that the acuity and contrast thresholds reflect properties of retinal afferents to subcortical structures
           like the Accessory Optic System (AOS) (https://escholarship.org/content/qt3v25z604/qt3v25z604.pdf?t=lnpyco). 
                |
                 -> Cortical lesions also have no effect on OKN eye movements (Hobbelen & Collewijn, 1971; Harvey et al.,1997), suggesting the two components of gaze stabilization share a common pathway.
