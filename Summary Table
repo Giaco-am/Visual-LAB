@@ -22,9 +22,11 @@ APPARATUS ---> T04:  - Rotating drum with alternating high-contrast stripes of 3
                        source and video camera to image the eye of an awake and head posted mouse (Fig. 1B-D).
 
             -> K13: - (Prusky et al. 2004) A rotating cylinder covered with a vertical sine wave grating was calculated and drawn in virtual three-dimensional (3-D) 
-                      space on four computer monitors facing to form a square. Mice stood unrestrained on a platform in the center of the square. Mirrors were placed both above and underneath
-                      the box (These mirrors were placed to extend the images to the floor and ceiling so that, from the perspective of the platform, each monitor appeared as a window on a 
-                      surrounding 3D world). (Examples of mice behaving in the apparatus: Movie 1 https://iovs.arvojournals.org/article.aspx?articleid=2163346)
+                      space on four computer monitors facing to form a square.Whisper fans were used to cool the monitors and vent the testing arena
+                      Mice stood unrestrained on a platform in the center of the square (its size is important, too small and the mouse jumps out, too big and the mouse wanders and shows little interest in the stimulus).
+                      Mirrors were placed both above and underneath the box (These mirrors were placed to extend the images to the floor and ceiling so that, from the perspective of the platform, each
+                      monitor appeared as a window on a surrounding 3D world). Adding mirrors noticeably increased the overall frequency of tracking episodes (stimulus was present in a larger part of their visual field). 
+                      (Examples of mice behaving in the apparatus: Movie 1 https://iovs.arvojournals.org/article.aspx?articleid=2163346)
 
 
 TESTING
@@ -42,15 +44,26 @@ PROCEDURE ---> T04: - Rats are tested for 4 min during one session, 2 min for ea
                        freq. was then measured (From 0.02 c/d to 0.5 c/d, Fig. 2);
                      - Tipically, a total of 14-18 thresholds could be recorded in a 25-40 min session.
 
-            -> CN08: - Visual stimulus over a 90 second period represents: 1) A uniform grey during the first 30s;
-                                                                           2) A pattern of black and white vertical stripes (each stripe subtending 4°) rotating at 5°/s 
-                                                                              in a temporal to nasal direction during the middle 30s;
-                                                                           3) A uniform gray during the last 30s;
+            -> CN08: - Visual stimulus over a 90 second period represents (Fig.2): 1) A uniform grey during the first 30s;
+                                                                                   2) A pattern of black and white vertical stripes (each stripe subtending 4°) rotating at 5°/s 
+                                                                                      in a temporal to nasal direction during the middle 30s;
+                                                                                   3) A uniform gray during the last 30s;
                      - It's noted that OKR over a continuous 21 min period of rotating stimulus does not show adaptation;
                      - To measure Contrast Sensitivity, the standard black and white stimulus was modified by producing a weighted average between black and white stripes and
                        a standard grey with a luminance midway between that of the black7white stripes. This operation creaes stripes with contrast ranging from 0% to 100% 
-                       without changing 
-                                                                           
+                       without changing the average luminance of the stimulus (Fig.5).
+                     - To measure spatial frequency response, the width of each black and white stripe varied from 0.67° to 45° (Fig.5);
+                     - The angular velocity of the standard stimulus was varied from 2°/s to 13°/s (Fig.5).
+
+
+            -> K13: (Followed Prusky et al. 2004): - Acuity and contrast sensitivity of mice was measured daily from the day of eye-opening P15 to P35 and regularly thereafter (P90-P125);
+                                                   - When a grating perceptible to the mouse was projected on the cylinder wall and the cylinder was rotated (12°/s), the mouse
+                                                     stopped moving its body and would begin to track the grating with reflexive head movements;
+                                                   - Whenever possible, the experimenter was blind to the treatement and age of the animals, as well as previously recorded thresholds;
+                                                   - All animals were habituated before the outset of testing with handling and by placing them on the platform for a few minutes at a time;
+                                                   - The mice were generally tested during the first few hours of their daylight cycle (12-h light-dark cycle; light on at 7 am), normmaly
+                                                     for 5 to 30  minutes at a time.
+                                                   - Uniform grey until the mouse stops moving then it was replaced with a low-spatial-freq.(ca. 0.1c/d), sine-wave grating 100% contrast.
 
 
 
