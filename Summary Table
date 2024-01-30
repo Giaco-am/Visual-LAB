@@ -16,4 +16,45 @@ APPARATUS ---> T04:  - Rotating drum with alternating high-contrast stripes of 3
                      - Gratings on the monitors are reflected by floor and ceiling mirrors;
                      - The animal is placed on a small circular platform on a stand in the middleof the chamber where it's free to move.
 
-            -> CN08: 
+            -> CN08: - A projector and a laptop are mounted on a motorized rotating stage suspended 2 meters above the floor, with the optical axis of the projector coincident with
+                       both the axis of rotation of the stage and the axis of a white cylindrical test chamber at the floor level. A radially symmetric image on the computer screen 
+                       appears as a series of vertical lines when projected onto the cylindrical wall of the chamber. A small window in the wall of the chamber permits an infrared light
+                       source and video camera to image the eye of an awake and head posted mouse (Fig. 1B-D).
+
+            -> K13: - (Prusky et al. 2004) A rotating cylinder covered with a vertical sine wave grating was calculated and drawn in virtual three-dimensional (3-D) 
+                      space on four computer monitors facing to form a square. Mice stood unrestrained on a platform in the center of the square. Mirrors were placed both above and underneath
+                      the box (These mirrors were placed to extend the images to the floor and ceiling so that, from the perspective of the platform, each monitor appeared as a window on a 
+                      surrounding 3D world). (Examples of mice behaving in the apparatus: Movie 1 https://iovs.arvojournals.org/article.aspx?articleid=2163346)
+
+
+TESTING
+PROCEDURE ---> T04: - Rats are tested for 4 min during one session, 2 min for each eye, 1 min for each direction of the striped drum;
+                    - Time spent turning the head following the drum's rotation is recorded as 'head-tracking';
+                    - Two different stripes widths correspond to two grating frequencies of .25 cycles/deg (1 cm, medium stripes), and .125 cycles/deg (2cm, large stripes) (Fig.); 
+                    - Costant rotational speed = 2 turns per minute of the drum (12°/s);
+                    - 1 week was passed between two tests to avoid the development of habituated behaviour.
+
+            -> D05:  - ROTATIONAL SPEED = 12°/s;
+                     - Large repositioning and grooming movements were ignored and trials were restarted if presence of head tracking was not clear;
+                     - Visual thresholds were obtained with a STAIRCASE procedure in which the step size was halved after each reversal, one staircase for each direction
+                        of rotation;
+                     - The maximum spatial frequency capable of driving head tracking (acuity) was determined first, the Contrast Sensitivity at 6-8 different spatial 
+                       freq. was then measured (From 0.02 c/d to 0.5 c/d, Fig. 2);
+                     - Tipically, a total of 14-18 thresholds could be recorded in a 25-40 min session.
+
+            -> CN08: -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
