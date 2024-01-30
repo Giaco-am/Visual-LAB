@@ -76,8 +76,9 @@
             ########## IF INTERESTED, PAG. 4/5/6 ##########
 
       -> STIMULUS-RESPONSE PARAMETERS FOR THE MURINE OKR
-            -> To compare basic response properties of the OKR between C57BL/6J and 129/SvEv, we have analyzed the effect of contrast, spatial freq., angular velocity, monocular vs binocular presentation, and direction of rotation, in each case quantiying the OKR response by determining the average 
-               number of ETMs per 30 sec stimulus interval. Contrast and spatial freq. thresholds have been measured by visual inspection of head and body turning in freely moving mice.
+            -> To compare basic response properties of the OKR between C57BL/6J and 129/SvEv, we have analyzed the effect of contrast, spatial freq., angular velocity, monocular vs binocular presentation, and direction of rotation,
+               in each case quantiying the OKR response by determining the average; number of ETMs per 30 sec stimulus interval. Contrast and spatial freq. thresholds have been measured by visual inspection of head and 
+               body turning in freely moving mice.
             -> Decreasing the contrast of the light and dark stripes progressively reduces the strenght of the OKR with a threshold of detection (arbitrarily defined as greater of 1 ETM per 30 sec interval);
             -> For C57BL/6J mice at ca. 2% contrast and for 129/SvEv at ca. 6% contrast (fig. 5A and S2);
                   |
@@ -89,7 +90,7 @@
                    -> The OKR is nulled by symmetric binocular temporonasal or nasotemporal motion;
                    -> SEE FIG. 6A/6B for ETMs numeric results.
 
-      -> PLOYGENIC INHERITANCE OF STRAIN DIFFERENCES IN THE OKR
+      -> POLYGENIC INHERITANCE OF STRAIN DIFFERENCES IN THE OKR
             -> Substantial variations have been reported in OKR response amplitudes in various inbred strains of mice (Balkema et al. 1984, Mangini et al. 1985);
             ->  129/SvEv mice showed a smaller saccade amplitude greater ETM frequency, and a greater uniformity of the OKR relative to C57BL/6J Additionally, 129/Sv
                 has a significant phase defect in an oscillatory visual stimulus paradigm relative to C57BL/6J.
