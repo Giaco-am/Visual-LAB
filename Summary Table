@@ -30,7 +30,7 @@ APPARATUS ---> T04:  - Rotating drum with alternating high-contrast stripes of 3
 TESTING
 PROCEDURE ---> T04: - Rats are tested for 4 min during one session, 2 min for each eye, 1 min for each direction of the striped drum;
                     - Time spent turning the head following the drum's rotation is recorded as 'head-tracking';
-                    - Two different stripes widths correspond to two grating frequencies of .25 cycles/deg (1 cm, medium stripes), and .125 cycles/deg (2cm, large stripes) (Fig.); 
+                    - Two different stripes widths correspond to two grating frequencies of .25 cycles/deg (1 cm, medium stripes), and .125 cycles/deg (2cm, large stripes) (Fig.1); 
                     - Costant rotational speed = 2 turns per minute of the drum (12°/s);
                     - 1 week was passed between two tests to avoid the development of habituated behaviour.
 
@@ -42,7 +42,15 @@ PROCEDURE ---> T04: - Rats are tested for 4 min during one session, 2 min for ea
                        freq. was then measured (From 0.02 c/d to 0.5 c/d, Fig. 2);
                      - Tipically, a total of 14-18 thresholds could be recorded in a 25-40 min session.
 
-            -> CN08: -
+            -> CN08: - Visual stimulus over a 90 second period represents: 1) A uniform grey during the first 30s;
+                                                                           2) A pattern of black and white vertical stripes (each stripe subtending 4°) rotating at 5°/s 
+                                                                              in a temporal to nasal direction during the middle 30s;
+                                                                           3) A uniform gray during the last 30s;
+                     - It's noted that OKR over a continuous 21 min period of rotating stimulus does not show adaptation;
+                     - To measure Contrast Sensitivity, the standard black and white stimulus was modified by producing a weighted average between black and white stripes and
+                       a standard grey with a luminance midway between that of the black7white stripes. This operation creaes stripes with contrast ranging from 0% to 100% 
+                       without changing 
+                                                                           
 
 
 
