@@ -137,15 +137,60 @@ RESULTS ---> T04: - A head turn was scored only when speed of tracking matched s
 
 
 
+DISCUSSION ---> T04: - When both eyes are simultaneously exposed to the stimulus (one eye is stimulated in a nasotemporal direction and the other is
+                       stimulated temporonasally) the degree of asymmetry (counterclockwise versus clockwise rotation) is attenuated in all
+                       the rats tested.  
+                           |
+                           -> hp: observed HT response is mostly derived or driven by the eye receiving the temporonasal stimulation.
+                           -> If the rats move, the distances to the drum stripes and thus the apparent rotatation speed will be slightly different for each eye and regardless
+                              of the direction of drum rotation, tracking in the preferred direction (TEMPORONASAL) is happening with either one of the eyes!   
+
+
+             -> D05: - The Nucleus of the Optic Track and the Dorsal Terminal Nucleus  of the AOS are the nuclei concerned with horizontal tracking.    (AOS = Accessory Optic System)
+                       Spatial frequency tuning of cells in these nuclei have not been determined, but they have large RF which is consistent with a lower spatial-frequency preference. 
+                     - Independent testing of the two eyes is possible simply by controlling the direction of rotation (Also reported in Thomas et al. 2004),
+                       this behaviour is due to the crossed subcortical projections from the eyes (Fig. 4).
+                     - Total range in acuity measurements is tipically about 0.02 c/d, which is less than 5% of average acuity values;
+                           |
+                           -> WHY? -> The sudden appearence of the stimulus appears to attract the animal's attention, it is not necessary to have exentended stimulus durations 
+                                      as the relevant behaviour happens almost immediately;
+                                   -> Animals are unrestrained and the lack of stress may lead to more consistent behaviour;
+                                   -> Stimulus appearance can be repeated several times within a few seconds if the experimenter wishes to confirm whether tracking is present;
+                                   -> We determine visual thresholds, which probably vary little from animal-to-animal in an in-bred laboratory strain.
+                                   -> Counting the number of seconds an animal tracks each stimulus is analogous to making magnitude estimates with human observers, 
+                                      BUT what does a 50% decline in the tracking duration mean in terms od vision??
+
+
+                    - Cortical lesions had no effect on visual thresholds (Fig.6), this suggest that the acuity and contrast thresholds reflect properties
+                       of retinal afferents to subcortical structures.
+
+
+
+           
+
+             -> CN08: - Use of infrared imaging to monitor the murine OKR and then quantify the number of ETMs per unit time;
+                      - This test was used to define the basic OKR stimulus-response characteristic of C57BL/6J and 129/SvEv and of genetically engineered variants that lack one or
+                        more photoreceptor systems or that have an altered spectral sensitivity;
+                      - It shows that the characteristic difference in OKR frequency between C57BL/6J and 129/SvEv is inherited as a polygenic trait;
+                      - It demonstrates that the mouse OKR can be used as a sensitive and quantitative assay for drug action in the CNS;
+                         |
+                      - Furthermore, the ketamine experiment demonstrates the high sensitivity and temporal resolution of the OKR in monitoring drug effects on CNS function.
+
+                      - FUTURE INVESTIGATIONS: -> OKR could be used to quantify drug-induced sedation or arousal;
+                                               -> To monitor the progression or the therapeutic response of neurodegenrative disease;
+                                               -> To quantify the functional response to stem cell, pharmacologic or genetic approaches aimed at restoring vision in the context
+                                                  of retinal degenrative disease.
 
 
 
 
-
-
-
-
-
+             -> K13: - OPT reports largely subcortical function whereas VEP reflects mainly thalamocortical function and single unit recordings report intracortical function;     
+                     - Darkness from birth still allows subcortical circuits development although at a slower rate. Cortical circuits are more severely affected and 
+                       retain plasticity when re-exposed to light;
+                     - OPT response and VEP acuity increase in the dark and lose their plasticity in response to MD in adulthood, whereas intracortical circuits remain plastic; (MD = Monocular Deprivation)
+                       |
+                       ===> Consequently, subcortical and cortical maturation is not coordinated over development in CDR mice.
+                     -  Differential impact of CDR on the "molecular brakes" that would normally limit CP development may need to be considered.
 
 
 
