@@ -23,10 +23,11 @@ APPARATUS ---> T04:  - Rotating drum with alternating high-contrast stripes of 3
 
             -> K13: - (Prusky et al. 2004) A rotating cylinder covered with a vertical sine wave grating was calculated and drawn in virtual three-dimensional (3-D) 
                       space on four computer monitors facing to form a square.Whisper fans were used to cool the monitors and vent the testing arena
-                      Mice stood unrestrained on a platform in the center of the square (its size is important, too small and the mouse jumps out, too big and the mouse wanders and shows little interest in the stimulus).
+                      Mice stood unrestrained on a platform in the center of the square (its size is important, too small and the mouse jumps out, too big and the mouse wanders and 
+                      shows little interest in the stimulus).
                       Mirrors were placed both above and underneath the box (These mirrors were placed to extend the images to the floor and ceiling so that, from the perspective of the platform, each
-                      monitor appeared as a window on a surrounding 3D world). Adding mirrors noticeably increased the overall frequency of tracking episodes (stimulus was present in a larger part of their visual field). 
-                      (Examples of mice behaving in the apparatus: Movie 1 https://iovs.arvojournals.org/article.aspx?articleid=2163346)
+                      monitor appeared as a window on a surrounding 3D world). Adding mirrors noticeably increased the overall frequency of tracking episodes (stimulus was present in a
+                      larger part of their visual field). (Examples of mice behaving in the apparatus: Movie 1 https://iovs.arvojournals.org/article.aspx?articleid=2163346)
 
 
 TESTING
@@ -34,7 +35,7 @@ PROCEDURE ---> T04: - Rats are tested for 4 min during one session, 2 min for ea
                     - Time spent turning the head following the drum's rotation is recorded as 'head-tracking';
                     - Two different stripes widths correspond to two grating frequencies of .25 cycles/deg (1 cm, medium stripes), and .125 cycles/deg (2cm, large stripes) (Fig.1); 
                     - Costant rotational speed = 2 turns per minute of the drum (12°/s);
-                    - 1 week was passed between two tests to avoid the development of habituated behaviour.
+                    - 1 week was passed between two tests to avoid the development of habituated behaviour (P130-P240).
 
             -> D05:  - ROTATIONAL SPEED = 12°/s;
                      - Large repositioning and grooming movements were ignored and trials were restarted if presence of head tracking was not clear;
@@ -64,6 +65,79 @@ PROCEDURE ---> T04: - Rats are tested for 4 min during one session, 2 min for ea
                                                    - The mice were generally tested during the first few hours of their daylight cycle (12-h light-dark cycle; light on at 7 am), normmaly
                                                      for 5 to 30  minutes at a time.
                                                    - Uniform grey until the mouse stops moving then it was replaced with a low-spatial-freq.(ca. 0.1c/d), sine-wave grating 100% contrast.
+                                                   - Either a staircase or method-of-limits procedure was used, then spatial freq. was systematically increased until the animal no longer responded.
+
+
+
+RESULTS ---> T04: - A head turn was scored only when speed of tracking matched speed of rotation;
+                  - OF NOTE: .125 cycles/deg provided the most robust HT (Head Tracking) response;
+                  - Highly asymmetrical HT score (P<0.001) was observed when comparing responses to rotation of the drum in NASOTEMPORAL vs the much stronger response to TEMPORONASAL direction (Figs. 2-4);
+                  - Less pronunced difference between clockwise/ counter-clockwise (but still more pronunced than the one observed in original app.);
+
+
+          -> D05: - Tracking of rats was more time consuming and less robust compared to mice;
+                  - Measurments on visual acuity and contrast thresholds at eight different spatial frequencies were conducted in a single 30-45 min session;
+                  - The optomotor system (HT) is shifted towards lower spatial frequencies,
+                  - Optomotor acuity is significantly less than the acuity obtained with the VWT (Visual Water Task). For rats the difference was 46%, with a mean of 0.54 (+- 0.0013 c/d), 
+                    Long Evans rats typically have a VWT acuity of close to 1.0 c/d (Prusky et al. 2000a) (Fig.2).
+
+
+          -> CN08: - OKR reaches its steady state form within one second of the onset of stimulus motion and it shows no adaptation over more than 20 min of continuous stimulation
+                     (an interval which encompasses over 600 ETMs) (figure 2B)       (ETM = eye tracking movement) ;
+                                 |
+                                  -> C57BL/6J mice subject to 2 h of continuous oscillatory visual stimuli exhibited a modest increment in OKR performance over time (Iwashita et al. 2001);
+                                     with a slow increase in gain from 0.4 to 0.6 and a slow decrease in phase lag from 15° to 8°;
+                   - The frequency of ETMs is roughly proportional to the average velocity of the slow component (fig. 2C);
+                   - Decreasing the contrast of the light and dark stripes progressively reduces the strenght of the OKR with a threshold of detection (arbitrarily defined as greater of 1 ETM per 30 sec interval);
+                   - For C57BL/6J mice at ca. 2% contrast and for 129/SvEv at ca. 6% contrast (fig. 5A and S2);
+                           |
+                            -> The optimal spatial freq. for both occurs at a stripe width of ca. 3°, which subtends ca. 90 um at the retina if we take 1.69 mm as the average diameter of murine eye (fig. 5B);
+                            -> This spatial freq. is higher than the average RF diameter of murine retinal ganglion cells (estimated to be ca. 130 um (Smallwood et al. 2003), or ca. 200 um (Balkema et al. 1982));
+                            -> The OKR response to angular velocity between 2° and 13° per sec shows that both strains have broad sensitivity with a roughly linear response over this range (fig. 5C);
+                            -> Saccade-to-saccade variability becomes more pronunced with suboptimal stimuli;
+                            -> Monocular temporonasal motion induces strong OKR in both eyes, whereas monocular nasal-to-temporal motion induces only a weak OKR  (compare fig 6A, lines 5 and 6 vs lines 7 and 8);
+                            -> The OKR is nulled by symmetric binocular temporonasal or nasotemporal motion;
+                            -> SEE FIG. 6A/6B for ETMs numeric results.
+
+
+         -> K13: - Measured spatial freq. threshold using the OPT on P34-P35 CDR mice, the OPT has been used in mice to document that spatial vision rapidly       (OPT = Optomotor Task)
+                   increases from eye-opening (P12-P14) reaching a stable fully developed level by P30 (Prusky et al. 2004, Durand et al. 2012);                   (LR = Light Reared)
+                 - Spatial freq. threshold of LR mice was 0.41 +- 0.003 c/d at P34-P-35;                                                                           (CDR = Chronic Dark Reared)
+                 - Spatial freq. threshold of CDR mice was 0.34 +- 0.004 c/d at P34-P-35 (p = 0.004 Mann-Whitney test, fig 2B left);
+                 - Since OPT response is a behavioral assay system that reflects a combination of subcortical and cortical function (Prusky et al. 2006),
+                   visual acuity was also assessed by recording VEPs directly from V1;
+                           |
+                           -> VEP in response to abrupt high contrast reversal of square gratings were recorded from populationson neurons in layers 3-4 of binocular V1
+                           -> Consistent with previous reports: -> CDR until P34-P35 disrupted maturation of visual acuity (0.35 +- 0.01, p= 0.016 Mann-Whitney test);
+                            (Gianfranceschi et al. 2003)       -> In CDR at P55-P65, both OPT and VEP showed improvements compared with LR mcontrol levels
+                                                                  (vs LR, respectively, p = 0.2934, t-test; p = 0.96, t-test) (fig. 2B right)
+                                                               -> Comparing the development trajectory of spatial freq. threshold in LR and CDR mice from P18-P62 (fig. 3),
+                                                                       |
+                                                                        -> Average OPT response of LR mice at P12-P14: 0.145 c/d;
+                                                                        -> Average OPT response of LR mice at P25: 0.4 c/d;
+                                                                        -> Average OPT response of CDR mice at P18: 0.19 +- 0.01 c/d (LR mice at P18: 0.27 +- 0.05 c/d, p = 0.0001 t-test );
+                                                                         -> Average OPT response of CDR mice at P27: 0.34 +- 0.004 c/d;
+                                                                         -> OPT response of CDR mice reached the adult level at P55 (> 25 days after LR mice);
+
+
+
+                 - The time course of sensory-dependent OPT threshold maturation depended on the age of first light exposure (!!!!)
+                             |
+                              -> This time course was defined as the time to reach half (T_1/2) of the total OPT threshold improvement for each age group of CDR mice.
+                              -> T_1/2 in LR mice was 4 days;
+                              -> T_1/2 in CDR mice was 2.17 days (for those exposed to light at P20), and 1.68 days (for those exposed to light at P34);
+                              -> OPT threshold reaches adult levels over the course of 3 days in CDR mice, in contrast to 6-7 days in LR mice (fig. 6A).
+   
+                 - OPT threshold maturation time course in LR mice is best fit with a sigmoidal function (fig. 6B). Single (or double) exponential funtions provide
+                   poor fits of the normal  developmental time course as assessed by chi^2 test (fig. 6B).
+                             |
+                              -> These findings indicate  that the visual circuit undergoes different connectivity states during development, and that circuit 
+                                 refinement after prolonged visual deprivation does not follow the same path or process as in normal development.
+
+
+
+
+
 
 
 
