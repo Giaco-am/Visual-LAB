@@ -9,6 +9,54 @@
      -> Acuity was quanntified by increasing the spatial freq. of the grating until an optomotor response could not be elicited;
      -> Contrast sensitivity was measured at spatial frequencies between 0.03 and 0.35 c/d.
 
-     -> Grating acuity was measurable on the day of eye opening ()
+     -> Grating acuity was measurable on the day of eye opening (P15) -> mean acuity 0.031 c/d |||| and it reached a maximum (ca. 0.4 c/d) by P24;
+     -> Peak contrast sensitivity function emerged on P16 (4.7, or 21% contrast at 0.064 c/d), the peak remained at 0.064 c/d and climbedto a maximum 
+        sensitivity of 24.5 (or 4% contrast) at P29;
+     -> Acuity was obtained in each mouse in < 10 min, and a detailed contrast sensitivity curve was generated in approximately 30 min.
+
+
+5.2) METHODS 
+
+     -> C57BL/6 mice were raised in plexiglass boxes in a room with an ambient temperature of 21°C, 35% relative humidity, 
+        a 12 h light/dark cycle and food and water available ad libitum. 
+     ->  A rotating cylinder covered with a vertical sine wave grating was calculated and drawn in virtual three-dimensional (3-D) 
+         space on four computer monitors facing to form a square.Whisper fans were used to cool the monitors and vent the testing arena
+         Mice stood unrestrained on a platform in the center of the square (its size is important, too small and the mouse jumps out, too big and the mouse wanders and 
+         shows little interest in the stimulus).
+         Mirrors were placed both above and underneath the box (These mirrors were placed to extend the images to the floor and ceiling so that, from the perspective of the platform, each
+         monitor appeared as a window on a surrounding 3D world). Adding mirrors noticeably increased the overall frequency of tracking episodes (stimulus was present in a
+         larger part of their visual field). (Examples of mice behaving in the apparatus: Movie 1 https://iovs.arvojournals.org/article.aspx?articleid=2163346)
+      
+      -> Acuity and contrast sensitivity of mice was measured daily from the day of eye-opening P15 to P35 and regularly thereafter (P90-P125);
+      -> When a grating perceptible to the mouse was projected on the cylinder wall and the cylinder was rotated (12°/s), the mouse
+         stopped moving its body and would begin to track the grating with reflexive head movements;
+      -> Whenever possible, the experimenter was blind to the treatement and age of the animals, as well as previously recorded thresholds;
+      -> All animals were habituated before the outset of testing with handling and by placing them on the platform for a few minutes at a time;
+      -> The mice were generally tested during the first few hours of their daylight cycle (12-h light-dark cycle; light on at 7 am), normmaly
+         for 5 to 30  minutes at a time.
+      -> Uniform grey until the mouse stops moving then it was replaced with a low-spatial-freq.(ca. 0.1c/d), sine-wave grating 100% contrast.
+      -> Either a staircase or method-of-limits procedure was used, then spatial freq. was systematically increased until the animal no longer responded.
+      -> A contrast-sensitivity function was assessed by using spatial frequency which began with a grating of 10% contrast, which was systematically reduced until 
+         contrast threshold was identified.
+               |
+                -> A contrast threshold was identified at six spatial freq. (0.031, 0.064, 0.092, 0.103, 0.192, 0.272 c/d), the threshold at a spatial frequency
+                   was calculated as a Michelson contrast from the screen's luminances (max-min)/(max+min). The contrast sensitivity (the reciprocal of the
+                   threshold) was then plotted vs spatial freq. on a log-log graph.
+
+
+
+5.3) QUALITATIVE OBSERVATIONS
+
+     -> Occasionally, during test, sudden reversals of grating drift direction, sudden changes in luminance, taps on the lid were interspersed with the grating 
+        presentations to induce the animal to stop moving.
+     -> By adopting an exposed platform with no barriers between the animal and the monitors, the number of distractions was reduced.
+     -> If the testing platform was too large, the mice would persistently walk around the perimeter 
+      
+
+
+
+
+
+
 
      
