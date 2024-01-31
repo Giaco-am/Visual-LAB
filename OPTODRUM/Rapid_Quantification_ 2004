@@ -62,7 +62,7 @@
      -> At low spatial frequencies, robust (1-2 cm, 0.5-2 seconds) head and neck movements were generated, but as the spatial freq. waas increased, the extent and duration of the movements 
         decreased until at threshold, no movements were generated.
          |
-          -> detecting movements near threshold consisted of identifying small (< 0.5 cm) and brief (< 0.5 s) tracking episodes.
+          -> Detecting movements near threshold consisted of identifying small (< 0.5 cm) and brief (< 0.5 s) tracking episodes.
       
 
 
