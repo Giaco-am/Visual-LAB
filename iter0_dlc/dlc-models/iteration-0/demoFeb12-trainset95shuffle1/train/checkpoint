@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/train/snapshot-50000"
+all_model_checkpoint_paths: "/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/train/snapshot-50000"

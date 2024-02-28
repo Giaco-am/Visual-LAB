@@ -1,0 +1,287 @@
+2024-02-12 09:24:57 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/demo_giacomo95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/giacomo/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/Documentation_data-demo_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 103000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/home/giacomo/Desktop/demo-giacomo-2024-02-12',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2024-02-12 09:27:01 iteration: 1000 loss: 0.0169 lr: 0.005
+2024-02-12 09:28:44 iteration: 2000 loss: 0.0069 lr: 0.005
+2024-02-12 09:30:25 iteration: 3000 loss: 0.0055 lr: 0.005
+2024-02-12 09:32:08 iteration: 4000 loss: 0.0048 lr: 0.005
+2024-02-12 09:33:49 iteration: 5000 loss: 0.0041 lr: 0.005
+2024-02-12 09:35:32 iteration: 6000 loss: 0.0039 lr: 0.005
+2024-02-12 09:37:14 iteration: 7000 loss: 0.0036 lr: 0.005
+2024-02-12 09:38:57 iteration: 8000 loss: 0.0034 lr: 0.005
+2024-02-12 09:40:38 iteration: 9000 loss: 0.0032 lr: 0.005
+2024-02-12 09:42:19 iteration: 10000 loss: 0.0031 lr: 0.005
+2024-02-12 09:44:01 iteration: 11000 loss: 0.0044 lr: 0.02
+2024-02-12 09:45:44 iteration: 12000 loss: 0.0035 lr: 0.02
+2024-02-12 09:47:25 iteration: 13000 loss: 0.0032 lr: 0.02
+2024-02-12 09:49:08 iteration: 14000 loss: 0.0030 lr: 0.02
+2024-02-12 09:50:51 iteration: 15000 loss: 0.0028 lr: 0.02
+2024-02-12 09:52:31 iteration: 16000 loss: 0.0027 lr: 0.02
+2024-02-12 09:54:13 iteration: 17000 loss: 0.0025 lr: 0.02
+2024-02-12 09:55:56 iteration: 18000 loss: 0.0025 lr: 0.02
+2024-02-12 09:57:38 iteration: 19000 loss: 0.0024 lr: 0.02
+2024-02-12 09:59:20 iteration: 20000 loss: 0.0023 lr: 0.02
+2024-02-12 10:01:02 iteration: 21000 loss: 0.0022 lr: 0.02
+2024-02-12 10:02:44 iteration: 22000 loss: 0.0021 lr: 0.02
+2024-02-12 10:04:27 iteration: 23000 loss: 0.0021 lr: 0.02
+2024-02-12 10:06:08 iteration: 24000 loss: 0.0020 lr: 0.02
+2024-02-12 10:07:50 iteration: 25000 loss: 0.0021 lr: 0.02
+2024-02-12 10:09:32 iteration: 26000 loss: 0.0021 lr: 0.02
+2024-02-12 10:11:15 iteration: 27000 loss: 0.0019 lr: 0.02
+2024-02-12 10:12:57 iteration: 28000 loss: 0.0019 lr: 0.02
+2024-02-12 10:14:38 iteration: 29000 loss: 0.0019 lr: 0.02
+2024-02-12 10:16:19 iteration: 30000 loss: 0.0019 lr: 0.02
+2024-02-12 10:18:00 iteration: 31000 loss: 0.0018 lr: 0.02
+2024-02-12 10:19:45 iteration: 32000 loss: 0.0018 lr: 0.02
+2024-02-12 10:21:28 iteration: 33000 loss: 0.0018 lr: 0.02
+2024-02-12 10:23:11 iteration: 34000 loss: 0.0018 lr: 0.02
+2024-02-12 10:24:54 iteration: 35000 loss: 0.0017 lr: 0.02
+2024-02-12 10:26:36 iteration: 36000 loss: 0.0018 lr: 0.02
+2024-02-12 10:28:18 iteration: 37000 loss: 0.0018 lr: 0.02
+2024-02-12 10:30:00 iteration: 38000 loss: 0.0017 lr: 0.02
+2024-02-12 10:31:40 iteration: 39000 loss: 0.0017 lr: 0.02
+2024-02-12 10:33:22 iteration: 40000 loss: 0.0017 lr: 0.02
+2024-02-12 10:35:05 iteration: 41000 loss: 0.0016 lr: 0.02
+2024-02-12 10:36:47 iteration: 42000 loss: 0.0017 lr: 0.02
+2024-02-12 10:38:28 iteration: 43000 loss: 0.0016 lr: 0.02
+2024-02-12 10:40:09 iteration: 44000 loss: 0.0016 lr: 0.02
+2024-02-12 10:41:51 iteration: 45000 loss: 0.0017 lr: 0.02
+2024-02-12 10:43:32 iteration: 46000 loss: 0.0016 lr: 0.02
+2024-02-12 10:45:15 iteration: 47000 loss: 0.0016 lr: 0.02
+2024-02-12 10:46:57 iteration: 48000 loss: 0.0016 lr: 0.02
+2024-02-12 10:48:40 iteration: 49000 loss: 0.0016 lr: 0.02
+2024-02-12 10:50:21 iteration: 50000 loss: 0.0016 lr: 0.02
+2024-02-12 10:52:03 iteration: 51000 loss: 0.0015 lr: 0.02
+2024-02-12 10:53:46 iteration: 52000 loss: 0.0016 lr: 0.02
+2024-02-12 10:55:47 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/demo_giacomo95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/giacomo/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2024-02-12 10:55:47 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'contrast': {'clahe': True,
+              'claheratio': 0.1,
+              'histeq': True,
+              'histeqratio': 0.1},
+ 'convolution': {'edge': False,
+                 'emboss': {'alpha': [0.0, 1.0], 'strength': [0.5, 1.5]},
+                 'embossratio': 0.1,
+                 'sharpen': False,
+                 'sharpenratio': 0.3},
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/demo_giacomo95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/giacomo/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/Documentation_data-demo_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 103000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': '/home/giacomo/Desktop/demo-giacomo-2024-02-12',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2024-02-12 11:00:52 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/demo_giacomo95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/giacomo/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2024-02-12 11:01:26 Config:
+{'all_joints': [[0], [1], [2], [3]],
+ 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'objectA'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_demoFeb12/demo_giacomo95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/giacomo/anaconda3/envs/DEEPLABCUT/lib/python3.8/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 4,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': '/home/giacomo/Desktop/demo-giacomo-2024-02-12/dlc-models/iteration-0/demoFeb12-trainset95shuffle1/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
